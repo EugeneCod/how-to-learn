@@ -10,14 +10,68 @@
 }
 
 .header {
+  position: relative;
+  display: flex;
+  align-items: center;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  background-color: #f2f2f2;
   /* выше установили ограничения для секции */
+}
+
+.logo {
+  width: 183px;
+  height: 32px;
+  z-index: 3;
+}
+
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  background-image: url(../images/logo_place_header.svg);
+}
+
+.header__title {
+  font-weight: bold;
+  line-height: 96px;
+  font-size: 102px;
+  border: 1px solid red;
+  z-index: 3;
+  width: 730px;
+  margin: 64px;
+}
+
+.header__subtitle {
+  font-weight: normal;
+  line-height: 25px;
+  z-index: 3;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  width: 388px;
+  font-size: 18px;
+}
+.header__link {
+  color: #2f80ed;
+}
+
+.header__main-illustration {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 765px;
+  height: 608px;
+  z-index: 2;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
+  background-color: #2f80ed;
+  position: absolute;
+  top: 64px;
+  right: 0;
   height: 568px;
   width: 568px;
 }
@@ -29,3 +83,6 @@
   margin-right: 0;
   margin-top: 80px;
 }
+
+
+
