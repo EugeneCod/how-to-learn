@@ -89,9 +89,11 @@
   display: flex;
   justify-content: space-between;
 }
+
 .two-columns__brief {
   width: 175px;
 }
+
 .description__title {
   line-height: 1.2;
   font-size: 18px;
@@ -128,7 +130,6 @@
 
 .section-title {
   width: 60%;
-  margin: 0;
   text-align: center;
   line-height: 1.15;
   font-size: 60px;
