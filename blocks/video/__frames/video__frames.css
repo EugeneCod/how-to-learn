@@ -1,0 +1,6 @@
+.video__frames {
+  margin: 0 auto;
+  transform: translate(0, 50px);
+  display: flex;
+  justify-content: center;
+}
